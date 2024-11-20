@@ -12,7 +12,18 @@
 <body>
 
     <div class="container">
-        <h6>Formulario</h6>
+        <h3>PHP BÁSICO</h3>
+        <ul>
+            <ol>1. Operaciones con String</ol>
+            <ol>2. Operadores Arirmeticos</ol>
+            <ol>3. Tipos de datos</ol>
+            <ol>4. Operaciones con Array</ol>
+            <ol>5. Condicionales</ol>
+            <ol>6. Ciclos</ol>
+            <ol>7. Salir</ol>
+        </ul>
+
+        <h6>Formulario Diego Lipa</h6>
         <hr>
 
         <form method="POST" action="">
@@ -25,7 +36,8 @@
         <hr>
 
         <?php
-        include "./DatoString.php";
+        
+        include "./OperadoresLogicos.php";
 
         // Codigo PHP
         if (isset($_GET["fruta"])) {
@@ -37,6 +49,13 @@
         }
 
         echo $_POST["numero"];
+
+        $ol = new OperadoresLogicos();
+        $ol->operadores();
+        $ol->saludar();
+
+
+
         ?>
 
     </div>

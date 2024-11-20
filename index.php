@@ -10,6 +10,7 @@
 <body>
     <p>Diego Frank </br> Lipa <b>Choque</b> </p>
     <!-- Etiqueta PHP -->
+
     <?php
     echo "Imprimiento de PHP </br>";
     $dato_1  = 1;
